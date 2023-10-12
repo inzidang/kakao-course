@@ -53,7 +53,7 @@ const addCourseMarker = (course) => {
     let markerSize = new kakao.maps.Size(35, 35);
 
     if(course.users_course_id) {
-        markerImage = "/file/map_complete.jpg";
+        markerImage = "/file/map_complete.png";
         markerSize = new kakao.maps.Size(50, 50);
     }
 
