@@ -33,19 +33,15 @@
     </ul>
 </footer>
 <script>
-
-    const addClickStyle= () => {
-        const currentPath = window.location.pathname;
-        const link = document.querySelectorAll(".footer ul li a");
-
-        link.forEach((link) => {
+    const addClickStyle = () => {
+        const currentPath = window.location.pathname; 
+        const links = document.querySelectorAll(".footer ul li a");
+      
+        links.forEach((link) => {
             if (link.getAttribute("href") === currentPath) {
                 link.parentElement.classList.add("on");
             }
-        } )
+        })
     }
-    document.addEventListener("DOMContentLoaded",addClickStyle)
-    // document.addEventListener("DOMContentLoaded", () => {
-    //     console.log("실행됨")
-    // )
+    document.addEventListener("DOMContentLoaded", addClickStyle)
 </script>

@@ -26,3 +26,6 @@ export const joinViewController = (request, response) => {
 export const loginViewController = (request, response) => {
   response.render("login");
 };
+export const logincallbackController = (request, response) => {
+  response.render("loginCallback");
+};

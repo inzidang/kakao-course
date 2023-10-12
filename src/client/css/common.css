@@ -12,12 +12,12 @@
   margin-top: 110px;
 }
 .basic-background {
-  background-image: url("/file/background_1.jpg");
+  background-image: url("../file/background_1.jpg");
   background-size: cover;
   background-position: center center;
 }
 .empty-background {
-  background-image: url("/file/background_2.jpg");
+  background-image: url("../file/background_2.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -39,7 +39,10 @@
   align-items: center;
   font-size: 30px;
   height: 100%;
-  font-family: "yg-jalnan", "sans-serif";
+  padding-top: 15px;
+  font-family: '양진체';
+  /* font-family: 'Noto Sans KR', sans-serif; */
+  /* font-weight: 700; */
 }
 .nav .sub-title {
   display: flex;
@@ -47,7 +50,7 @@
   align-items: center;
   width: 100%;
   height: 55px;
-  background: #ce3236;
+  background: #0077ff;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
@@ -63,8 +66,7 @@
   z-index: 20;
   background-color: #fff;
   /* font-family: "yg-jalnan", "sans-serif"; */
-  font-family: 'ImcreSoojin', "sans-serif";
-  /* font-family: 'HakgyoansimWoojuR', "sans-serif"; */
+  font-family: 'Pretendard-ExtraBold';
 }
 .footer ul {
   display: flex;
