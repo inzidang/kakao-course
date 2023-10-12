@@ -20,7 +20,7 @@ const loginHtml = (data) => {
       html += `<img src="/file/people.jpg" alt="유저 이미지">`
     }
     html += `
-              <span>${data.name}</span>
+              <span>${data.user_name}</span>
             </div>`
     html += `<button class="logout-btn" onclick="logout()">로그아웃</button>`
     usersNav.innerHTML = html;
@@ -42,7 +42,7 @@ const checkUserInfo = async () => {
         }
     });
     const result = await response.json();
-
+    console.log(result);
     if(response.status === 200) {
         loginHtml(result);
     } else {
