@@ -187,6 +187,7 @@
 }
 
 .wait-text {
+    padding-top: 20px;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
@@ -205,6 +206,7 @@
 #canvas {
     /* border-radius: 100%; */
     border: 3px solid #ffffff;
+    border-radius: 10%;
     box-shadow: 0 0 15px gray;
 }
 
